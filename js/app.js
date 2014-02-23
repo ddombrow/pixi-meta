@@ -132,6 +132,12 @@ function init() {
                 var chain = new ChainedTween([tweenX, tweenY]);
                 animate();
                 break;
+            case 82:
+                console.log('reset');
+                mapContainer.position = { x: 0, y: 0 };
+                mapContainer.scale = { x:1, y:1 };
+                renderer.render(app.stage);
+                break;
         }
     });
 
