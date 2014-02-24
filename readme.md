@@ -6,3 +6,5 @@ A presentation done with pixi.js about slippy UIs.  The presentation is also a s
 Use the right arrow key to progress forward through the presentation.
 
 Press the 'r' key to reset to the beginning.
+
+Use the mouse to zoom and pan ala google maps.
